@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    {
+      "name": "triangle", 
+      "path": "plugins.triangle"
+    }
+  ],
+  "shapes": [
+    {  
+      "type": "square",
+      "length": 2,
+      "width": 3
+    },
+    {
+      "type": "circle",
+      "radius": 2
+    },
+    {
+      "type": "triangle",
+      "height": 2,
+      "width": 2
+    }
+  ]
+}
