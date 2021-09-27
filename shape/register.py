@@ -33,4 +33,16 @@ def create(type: str, args: dict[str, any]) -> Shape:
     return plugin_register[type](**args)
   except KeyError:
     raise ValueError(f"unknown shape type {type}") 
-  
+
+
+
+
+def some_function(var1, var2, var3="abc", var4="cba"):
+  print(args) 
+  print(kwargs) 
+
+
+args = ("a", "b",)
+kwargs = {"first": 1, "second": 2}
+
+some_function(*args, **kwargs)
